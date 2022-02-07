@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import PrivateRoutes from './privateRoutes/privateRoutes';
 
 ReactDOM.render(
   <React.StrictMode>
+    <PrivateRoutes>
     <App />
+    </PrivateRoutes>
   </React.StrictMode>,
   document.getElementById('root')
 );
